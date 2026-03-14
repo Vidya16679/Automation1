@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Suite">
+  <listeners>
+    <listener class-name="org.datadriventest.qa.TestNGListener"/>
+  </listeners>
+
+  <test name="Test" thread-count="1">
+    <classes>
+      <class name="org.datadriventest.qa.DataDrivenTestUsingExcelReader"/>
+      <class name="org.datadriventest.qa.Test2"/>
+      
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testng.qa2.TestNGAssertion"/>
+      <class name="org.testng.qa2.Test3Priority"/>
+      <class name="org.testng.qa2.TestNGAssertion2"/>
+      <class name="org.testng.qa2.TestNGAssertionSoftAssertion"/>
+      <class name="org.testng.qa2.Testng1"/>
+      <class name="org.testng.qa2.TestGroups"/>
+      <class name="org.testng.qa2.Test2"/>
+      <class name="org.testng.qa2.TestDependsOnMethod"/>
+      <class name="org.testng.qa2.Test1"/>
+      <class name="org.testng.qa2.TestIgnoreException"/>
+      <class name="org.testng.qa2.TestNGAssertionSoftAssertion2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
